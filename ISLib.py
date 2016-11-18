@@ -17,4 +17,3 @@ def optimalSize(img, sqr=800):
     output = cv2.resize(img, None, fx=w/width, fy=h/height, interpolation = cv2.INTER_CUBIC)
     return scaledRatio, output
 
-##commment
